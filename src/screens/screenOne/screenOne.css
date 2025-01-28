@@ -1,0 +1,176 @@
+.screenOne {
+    background-image: url('../../assets/image/img1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    width: 50%;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 100px;
+    text-align: center;
+    width: 70%;
+
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+}
+
+.btn {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    margin: 50px;
+    width: 30%;
+    background: rgb(246, 164, 107);
+    font-weight: 700;
+    color: #fff;
+    border: none;
+
+}
+
+.btn:hover {
+    background-color: rgb(145, 144, 145);
+}
+
+/* ---------------------------------------------------------- */
+
+.right {
+    width: 50%;
+    margin: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.book {
+    width: 60%;
+    padding: 10px;
+}
+
+
+
+
+
+/* ------------------------- MEDIA QUERIES ------------------------- */
+/* 1180px to 992px */
+@media (max-width: 1180px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .heading {
+        font-size: 52px;
+        width: 80%;
+    }
+
+    .text {
+        font-size: 24px;
+    }
+
+    .btn {
+        font-size: 18px;
+    }
+
+    .left {
+        margin: 30px;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .screenOne {
+        height: auto;
+    }
+}
+
+/* 991px to 768px */
+@media (max-width: 991px) {
+    .btn {
+        font-size: 14px;
+    }
+}
+
+/* 767px to 576px */
+@media (max-width: 767px) {
+    .heading {
+        font-size: 35px;
+        width: 80%;
+    }
+
+    .text {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .btn {
+        font-size: 10px;
+        margin: 30px;
+    }
+
+}
+
+/* 575px to 360px */
+@media (max-width: 575px) {}
+
+/* Below 360px */
+@media (max-width: 360px) {
+    .heading {
+        font-size: 33px;
+        width: 100%;
+
+    }
+
+    .text {
+        font-size: 22px;
+
+    }
+
+    .btn {
+        font-size: 16px;
+        margin: 30px;
+        width: 64%;
+        padding: 15px;
+    }
+
+    .left {
+        margin: 15px;
+        width:100%
+    }
+
+    ;
+
+    .right {
+        margin: 5px;
+    }
+
+    .book {
+        width: 100%;
+    }
+}

@@ -1,0 +1,160 @@
+.screen_tow {
+    width: 100%;
+    height: 500px;
+    background-color: #f6a46b;
+    padding: 60px;
+
+}
+
+.two {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.left2 {
+    width: 50%;
+    /* background-color: rgb(23, 102, 102); */
+    display: flex;
+    justify-content: center;
+    border-right: 1px solid black;
+
+}
+
+.aunt {
+    width: 40%;
+
+
+}
+
+.right2 {
+    width: 50%;
+    /* background-color: rgb(82, 248, 70); */
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+
+}
+
+.h1 {
+    font-size: 42px;
+    padding: 5px;
+
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+.h4 {
+    font-size: 22px;
+    padding: 5px;
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.button {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    margin: 50px;
+    width: 30%;
+
+    background-color: #202730;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+
+}
+
+.button:hover {
+    background: #fff;
+    color: #202730;
+}
+
+/* ------------------------- MEDIA QUERIES ------------------------- */
+/* 1180px to 992px */
+@media (max-width: 1180px) {
+    .screen_tow {
+        height: auto;
+    }
+
+    .two {
+        flex-direction: column;
+    }
+
+    .left2 {
+        width: 100%;
+        border: none;
+    }
+
+    .right2 {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aunt {
+        width: 60%;
+    }
+
+}
+
+/* 991px to 768px */
+@media (max-width: 991px) {}
+
+/* 767px to 576px */
+@media (max-width: 767px) {}
+
+/* 575px to 360px */
+@media (max-width: 575px) {
+    .h1 {
+        font-size: 40px;
+
+    }
+
+    .h4 {
+        width: 100%;
+    }
+
+    .button {
+        width: 50%;
+    }
+
+}
+
+/* Below 360px */
+@media (max-width: 360px) {
+    .aunt {
+        width: 360px;
+    }
+
+    .right2 {
+        padding: 0px;
+        justify-content: start;
+        align-items: start;
+        width: 140%;
+
+    }
+
+    .h1 {
+        font-size: 24px;
+
+    }
+
+    .h4 {
+        font-size: 16px;
+    }
+
+    .button {
+        width: 60%;
+        margin: 0;
+        margin-top: 20px;
+        padding: 20px;
+
+    }
+}
