@@ -1,5 +1,7 @@
 .screenOne {
-    background-image: url('../../assets/image/img1.jpg');
+   
+    background-image: url('../../assets/image/bg9.jpeg');
+
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -46,10 +48,14 @@
     padding: 20px;
     margin: 50px;
     width: 30%;
-    background: rgb(246, 164, 107);
+   
+    background-color: #48A6A7;
     font-weight: 700;
     color: #fff;
     border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 13px 23px 61px -15px rgb(104 102 102);
 
 }
 
@@ -133,11 +139,22 @@
         font-size: 10px;
         margin: 30px;
     }
+    .btn{
+        width: 60%;
+        font-size: 14px;
+    }
 
 }
 
 /* 575px to 360px */
-@media (max-width: 575px) {}
+@media (max-width: 575px) {
+    .heading{
+        font-size: 28px;
+    }
+    .text{
+        font-size: 18px;
+    }
+}
 
 /* Below 360px */
 @media (max-width: 360px) {

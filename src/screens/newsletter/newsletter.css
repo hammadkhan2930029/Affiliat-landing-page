@@ -1,5 +1,6 @@
 .newsletter{
-    background-image: url("../../assets/image/img2.png");
+    background-image: url("../../assets/image/bg7.jpg");
+
     width: 100%;
     height: auto;
     display: flex;
@@ -8,7 +9,6 @@
 }
 .four{
     width: 60%;
-    /* background-color: aquamarine; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,6 +46,7 @@
     outline: none;
     border: none;
     font-size: 20px;
+    border-radius: 15px;
 }
 .btn4 {
     font-size: 20px;
@@ -54,15 +55,20 @@
     padding: 20px;
     margin: 50px;
     width: 50%;
-    background: rgb(246, 164, 107);
+    /* background: rgb(246, 164, 107); */
+    background-color: #48A6A7;
     font-weight: 700;
     color: #fff;
     border: none;
     cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 13px 23px 61px -15px rgb(104 102 102);
 
 }
 .btn4:hover {
-    background-color: rgb(145, 144, 145);
+    /* background-color: rgb(145, 144, 145); */
+    background-color: #F2EFE7;
+    color: #000;
 }
 /* ------------------------- MEDIA QUERIES ------------------------- */
 /* 1180px to 992px */
@@ -79,7 +85,17 @@
 
 /* 575px to 360px */
 @media (max-width: 575px) {
-  
+  .four{
+    width: 80%;
+    padding: 10px;
+    margin: 5px;
+  }
+  .heading4{
+    font-size: 32px;
+  }
+  .text4{
+    font-size: 22px;
+  }
 
 }
 
@@ -88,6 +104,7 @@
     .four{
         width: 100%;
         padding: 25px;
+        margin: 0;
     }
     .heading4{
         font-size: 24px;
@@ -96,7 +113,8 @@
         font-size: 12px;
     }
     .inputfield{
-        width: 160%;
+        width: 100%;
+        padding: 0px;
     }
     
 }
