@@ -18,8 +18,8 @@ function App() {
       <ScreenOne />
       <Cards />
       <ScreenTwo />
-      <CarouselSlider/>
       <ScreenThree />
+      <CarouselSlider/>
       <Newsletter />
       <Footer />
     </>

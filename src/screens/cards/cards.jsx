@@ -6,10 +6,9 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import CardActionArea from '@mui/material/CardActionArea';
 import CardActions from '@mui/material/CardActions';
-import bird1 from '../../assets/image/bird1.jpg';
-import bird2 from '../../assets/image/bird2.jpg';
-
-import bird3 from '../../assets/image/bird3.jpg';
+import book1 from '../../assets/image/book1.jpg'
+import book2 from '../../assets/image/book2.jpg'
+import book3 from '../../assets/image/book3.jpg'
 
 import './cards.css'
 
@@ -24,7 +23,7 @@ export const Cards = () => {
                         <CardMedia
                             component="img"
                             height="140"
-                            image={bird1}
+                            image={book1}
                             alt="green iguana"
                         />
                         <CardContent>
@@ -51,7 +50,7 @@ export const Cards = () => {
                         <CardMedia
                             component="img"
                             height="140"
-                            image={bird2}
+                            image={book2}
                             alt="green iguana"
                         />
                         <CardContent>
@@ -79,7 +78,7 @@ export const Cards = () => {
                         <CardMedia
                             component="img"
                             height="140"
-                            image={bird3}
+                            image={book3}
                             alt="green iguana"
                         />
                         <CardContent>
